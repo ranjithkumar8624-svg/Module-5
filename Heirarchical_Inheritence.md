@@ -49,5 +49,6 @@ e.setEmployee(id,name,gender,comp,dept) e.showEmployee() print("\nPatient Object
 = Patient() d.setEmployee(id1, nam, gen, hosp, dep) d.showEmployee()
 ## Sample Output
 <img width="650" height="308" alt="image" src="https://github.com/user-attachments/assets/fca105dc-f0cf-42bb-8614-a0825e5b6980" />
+
 ## Result
 Thus, the program has been successfully executed.
