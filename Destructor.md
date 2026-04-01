@@ -21,9 +21,11 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+class Demo: def init(self): print("Hello World!") ef del(self): print("Hello from the del
+method.") obj = Demo() del obj
 
 ## 🧪 Output
+<img width="600" height="124" alt="image" src="https://github.com/user-attachments/assets/29e26236-4800-4620-a784-fc36c62e25f6" />
 
 ## Result
-
+Thus, the program has been successfully executed.
