@@ -31,6 +31,23 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 5. Display collected information using class methods.
 
 ## Program
-Add code here
+class Details: def init(self): self.__id="" self.__name="" self.__gender="" def
+setData(self,id,name,gender): self.__id=id self.__name=name self.__gender=gender def
+showData(self): print("Id: ",self.__id) print("Name: ", self.__name) print("Gender: ",
+self.__gender) class Employee(Details): #Inheritance def init(self): self.__company=""
+self.__dept="" def setEmployee(self,id,name,gender,comp,dept):
+self.setData(id,name,gender) self.__company=comp self.__dept=dept def
+showEmployee(self): self.showData() print("Hospital: ", self.__company)
+print("Department: ", self.__dept) class Patient(Details): #Inheritance def init(self):
+self.__hospital="" self.__dept="" def setEmployee(self,id,name,gender,hos,dept):
+self.setData(id,name,gender) self.__hospital=hos self.__dept=dept def
+showEmployee(self): self.showData() print("Hospital: ", self.__hospital)
+print("Department: ", self.__dept) id=int(input()) name=input() gender=input()
+comp=input() dept=input() id1=int(input()) nam=input() gen=input() hosp=input()
+dep=input() print("Doctor Object") e=Employee()
+e.setEmployee(id,name,gender,comp,dept) e.showEmployee() print("\nPatient Object") d
+= Patient() d.setEmployee(id1, nam, gen, hosp, dep) d.showEmployee()
 ## Sample Output
-
+<img width="650" height="308" alt="image" src="https://github.com/user-attachments/assets/fca105dc-f0cf-42bb-8614-a0825e5b6980" />
+## Result
+Thus, the program has been successfully executed.
